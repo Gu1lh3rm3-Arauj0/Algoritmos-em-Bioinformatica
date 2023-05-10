@@ -6,9 +6,9 @@ float = float(input('Input para reais'))
 '''
 ############################################################
 #Print
-nome = 'Renata'
-idade = 19
-altura = 1.71
+nome = 'Guilherme Araújo'
+idade = 21
+altura = 1.90
 print('A idade do', nome, 'é', idade, 'e a sua altura é', altura)
 print('A idade do {} é {} e a sua altura é {}'.format(nome,idade,altura))
 print(f'A idade do {nome} é {idade} e a sua altura é {altura}')
@@ -28,34 +28,34 @@ else:
 ############################################################
 #STRING 
 a= {}
-a['nome']= 'renata'
-a['sobrenome'] = 'moura'
-a['idade'] = 19
-a['altura'] =1.71
+a['nome']= 'Guilherme'
+a['sobrenome'] = 'Araujo'
+a['idade'] = 21
+a['altura'] =1.90
 
 print (a,"\n")
-#saída- {'nome': 'renata', 'sobrenome': 'moura', 'idade': 19, 'altura': 1.71} 
+#saída- {'nome': 'guilherme', 'sobrenome': 'Araujo', 'idade': 21, 'altura': 1.90} 
 print(a.keys(),"\n")
 # saida- dict_keys(['nome', 'sobrenome', 'idade', 'altura']) 
 print(a.values(),"\n")
-# saida- dict_values(['renata', 'moura', 19, 1.71]) 
+# saida- dict_values(['Guilherme', 'Araujo', 21, 1.90]) 
 print (a.items(),"\n")
-#saida- dict_items([('nome', 'renata'), ('sobrenome', 'moura'), ('idade', 19), ('altura', 1.71)]) 
+#saida- dict_items([('nome', 'guilherme'), ('sobrenome', 'araujo'), ('idade', 21), ('altura', 1.90)]) 
 
 c=a #ta recebendo o lugar da memória
 c=a.copy() #recebe as informaçoes
-c['nome' ]= 'line'
+c['nome' ]= 'erme'
 print(c)
-#{'nome': 'line', 'sobrenome': 'moura', 'idade': 19}
+#{'nome': 'erme', 'sobrenome': 'araujo', 'idade': 21}
 
 
     #join() - junta duas strings
-palavras = ['renata', 'moura', 'barreto']
+palavras = ['guilherme', 'araujo', 'mendes']
 frase = ' '.join(palavras)
 print(frase)  # saída: 'renata moura barreto'
 
 frase = ', '.join(palavras)
-print(frase)  # saída: 'renata, moura, barreto'
+print(frase)  # saída: 'guilherme, araujo, mendes'
 
     #split() -  divide uma string em uma Lista
 frutas = "banana,maçã,uva"
